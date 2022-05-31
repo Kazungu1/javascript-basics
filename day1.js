@@ -10,3 +10,10 @@ if(favouriteNUmber>=10){
     favouriteNUmber +=10;
 }
 console.log(favouriteNUmber);
+
+// repetition statement- disrupt normal sequemce to check a condition 
+let bestNumber =2;
+while(bestNumber<=10){
+    bestNumber += 5;
+}
+console.log(bestNumber);
