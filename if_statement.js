@@ -22,3 +22,29 @@ let applicationStatus;
 applicantAge >=18 ? (applicationStatus ='Approve loan'):(applicationStatus='Loan Denied');
 console.log(applicationStatus)
 
+// const friendAge = 28;
+// // let isAdult;
+// // friendAge >18 ? (isAdult ="ID approved"):(isAdult ="ID Denied");
+// isAdult = friendAge >=18 ? true : false;
+// console.log(isAdult)
+
+// else  if statement-check multiple conditions
+const validAge = 11;
+let isAdult,canWork , canEnlist ,canDrink;
+if (validAge >=21){
+    canWork = true;
+    canEnlist = true;
+    isAdult = true;
+    canDrink = true;
+} else if (validAge<=18){
+    canWork = true;
+    canEnlist = true;
+    isAdult = true;
+
+} else if (validAge >=16){
+    canWork = true;
+}
+console.log(canDrink);
+console.log(canEnlist);
+console.log(canWork);
+console.log(isAdult);
