@@ -1,9 +1,9 @@
 // arrays
 // creating a new array
-friendsAge = [23,22,24,21,19,20];
+const friendsAge = [23,22,24,21,19,20];
 
 // array of different data types
-myArray = ['sam','grevians',true,23,56,[23,54,78]];
+const myArray = ['sam','grevians',true,23,56,[23,54,78]];
 console.log(myArray);
 
 // checking length of array
@@ -18,3 +18,4 @@ ourAges(friendsAge);
 // accessing elements in arrays
 console.log(friendsAge[0]);
 console.log(friendsAge[2]);
+
