@@ -8,3 +8,13 @@ console.log(myArray);
 
 // checking length of array
 console.log(friendsAge.length);
+
+// fucntion of arrays
+function ourAges(age) {
+    console.log("Our ages are: ", age);
+}
+ourAges(friendsAge);
+
+// accessing elements in arrays
+console.log(friendsAge[0]);
+console.log(friendsAge[2]);
