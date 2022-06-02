@@ -38,3 +38,6 @@ const favouriteMovies = ['blacklist','gotham','prisonbreak','badlands'];
 // push-add elements to the end
 favouriteMovies.push('six_undergound','taken');
 console.log(favouriteMovies);
+// unshift method-add to the begining of the array
+favouriteMovies.unshift('Osofia in london','Hawaii');
+console.log(favouriteMovies);
