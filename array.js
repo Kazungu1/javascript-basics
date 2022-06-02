@@ -19,3 +19,6 @@ ourAges(friendsAge);
 console.log(friendsAge[0]);
 console.log(friendsAge[2]);
 
+// updating elements in arrays
+myArray[0] = 'Samuel';
+console.log(myArray[0]);
