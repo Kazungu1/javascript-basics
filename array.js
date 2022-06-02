@@ -32,3 +32,9 @@ const myArrays = [
 console.log(myArrays);
 // accessing element of nested arrays
 console.log(myArrays[0][0]);
+
+// array methods
+const favouriteMovies = ['blacklist','gotham','prisonbreak','badlands'];
+// push-add elements to the end
+favouriteMovies.push('six_undergound','taken');
+console.log(favouriteMovies);
